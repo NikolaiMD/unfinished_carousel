@@ -1,0 +1,36 @@
+body{
+  background-color: #333;
+}
+#carousel{
+  background-color: #555;
+  width: 800px;
+  height: 600px;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#carousel .slide{
+  border: 1px dotted red;
+  width: inherit;
+  height: inherit;
+}
+/*BOXES*/
+#carousel .slide .box{
+  width: 100px;
+  height: 100px;
+  /*border: 1px solid white;*/
+  /*background-image: url(images/girl-river.jpeg);*/
+  float: left;
+}
+#carousel .slide h1.title{
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  bottom: 5px;
+  background-color: rgba(50,50,50,0.5);
+  color: white;
+  padding: 20px 100px;
+}
